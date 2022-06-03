@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users xmlns="http://www.demandware.com/xml/impex/user/2007-09-05">
+    <user login="catalin.grigorie@osf.digital" enabled-flag="true">
+        <credentials>
+            <external-id>f04f795c-efaf-4d11-acaa-e6578e2e8429</external-id>
+        </credentials>
+        <profile>
+            <first-name>Catalin</first-name>
+            <last-name>Grigorie</last-name>
+            <email>catalin.grigorie@osf.digital</email>
+        </profile>
+    </user>
+
+    <user login="damaris.ghetes@student.usv.ro" enabled-flag="true">
+        <credentials>
+            <external-id>d8cb5662-4eb0-4b41-b034-c30801286b57</external-id>
+        </credentials>
+        <profile>
+            <first-name>Damaris</first-name>
+            <last-name>Gheteș</last-name>
+            <email>damaris.ghetes@student.usv.ro</email>
+        </profile>
+    </user>
+
+</users>
