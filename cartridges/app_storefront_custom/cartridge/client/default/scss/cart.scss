@@ -12,7 +12,7 @@ $negative-spacer: -0.625rem;
 }
 
 //to enable promo code with css
-#clickCode{
+/*#clickCode{
     display: none;
 }
 
@@ -21,16 +21,16 @@ input[type=checkbox]:checked + label{
 }
 #clickCode:checked + #enter-promo{
     display: block;
-}
+}*/
 
 //to enable promo code with js
 
-/*a{
+a{
     color:$primary;
 }
 a:hover{
     text-decoration: none;
-}*/
+}
 
 
 .single-approaching-discount {

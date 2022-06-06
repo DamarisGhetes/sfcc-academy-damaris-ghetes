@@ -1,12 +1,12 @@
 <iscomment> This is for js </iscomment>
-<iscomment> <div class="row">
+<div class="row">
     <div class="col-12 d-sm-inline">
         <a href="#" class="click-promo" id="click-promo-id">${Resource.msg('click.appear.action.promo.code','cart',null)}</a>
     </div>
-</div> </iscomment>
+</div>
 <iscomment> This is jor css only </iscomment>
-<label for="clickCode">${Resource.msg('click.appear.action.promo.code','cart',null)}</label>
-<input type="checkbox" id="clickCode">
+<iscomment> <label for="clickCode">${Resource.msg('click.appear.action.promo.code','cart',null)}</label>
+<input type="checkbox" id="clickCode"> </iscomment>
 <div class="row">
     <div class="col-12 d-sm-none">
         <p class="optional-promo">${Resource.msg('action.enter.promo.code','cart',null)}</p>
