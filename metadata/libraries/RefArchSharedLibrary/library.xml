@@ -547,6 +547,18 @@
         <page-attributes/>
     </content>
 
+    <content content-id="renderingAsset">
+        <display-name xml:lang="x-default">Rendering Asset</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>true</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p&gt;&lt;strong&gt;Where does it come from?&lt;/strong&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in elementum velit, sit amet dapibus augue. Cras at mi vitae orci molestie congue at at enim. Suspendisse ultricies posuere mauris, id facilisis sem ornare non. Fusce sollicitudin neque eget auctor vulputate. Aenean tortor orci, feugiat nec commodo maximus, mattis nec nunc. Nunc vel justo neque. Aliquam erat volutpat. Proin tristique nisi ut tempus pretium. Donec porta urna ante, hendrerit imperdiet eros congue sed. Curabitur pellentesque eu orci at condimentum. Sed vel hendrerit nunc, et vehicula quam. Sed quis tortor et lacus ullamcorper tincidunt. .&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="2-day-shipping-popup">
         <display-name xml:lang="x-default">2 Day Shipping Information</display-name>
         <display-name xml:lang="fr-FR">Informations sur la livraison en 2 jours</display-name>
