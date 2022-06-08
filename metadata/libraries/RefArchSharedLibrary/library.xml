@@ -11364,6 +11364,28 @@ Consideriamo molto seriamente i diritti relativi alla privacy degli utenti di qu
         <sitemap-included-flag>false</sitemap-included-flag>
     </content>
 
+    <content content-id="task3">
+        <display-name xml:lang="x-default">online</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;h1 style="text-align:center"&gt;Online shopping&lt;/h1&gt;&#13;
+&#13;
+&lt;p style="text-align:center"&gt;&lt;img alt="" height="428" src="online.jpg?$staticlink$" title="" width="760" /&gt;&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
+    <content content-id="task4">
+        <display-name xml:lang="x-default">sticky header</display-name>
+        <online-flag>true</online-flag>
+        <searchable-flag>false</searchable-flag>
+        <page-attributes/>
+        <custom-attributes>
+            <custom-attribute attribute-id="body" xml:lang="x-default">&lt;p style="text-align: center;"&gt;Free Shipping over US$ 50.00&lt;/p&gt;</custom-attribute>
+        </custom-attributes>
+    </content>
+
     <content content-id="terms">
         <display-name xml:lang="x-default">Terms &amp; Conditions of Sale</display-name>
         <description xml:lang="x-default">These terms of use set forth the basis on which you are permitted to access and use this website, salesforce.com/products/commerce-cloud</description>
