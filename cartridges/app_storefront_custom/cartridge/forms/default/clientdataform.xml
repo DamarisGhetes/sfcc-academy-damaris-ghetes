@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<form xmlns="http://www.demandware.com/xml/form/2008-04-19" secure="false">
+    <field formid="firstName" label="label.input.firstname" type="string" mandatory="true" binding="firstName" max-length="50" missing-error="shipping.firstname.missing" range-error="error.message.50orless" />
+    <field formid="lastName" label="label.input.lastname" type="string" mandatory="true" binding="lastName" max-length="50" missing-error="shipping.lastname.missing" range-error="error.message.50orless" />
+    <field formid="address1" label="label.input.address1" type="string" mandatory="true" binding="address1" max-length="50" missing-error="address.address1.missing" range-error="error.message.50orless" />
+    <field formid="address2" label="label.input.address2" type="string" mandatory="false" binding="address2" max-length="50" range-error="error.message.50orless" />
+    <field formid="country" label="label.input.country" type="string" mandatory="true" binding="countryCode" missing-error="address.country.missing">
+		<options>
+			<option optionid="US" label="select.option.country.unitedstates" value="US" />
+		</options>
+	</field>
+    <include formid="states" name="states" missing-error="shipping.state.missing" parse-error="error.message.required" value-error="error.message.required" />
+    <field formid="postalcode" label="label.input.postalcode" type="string" mandatory="true" min-length="5" max-length="10" regexp="(^\d{5}(-\d{4})?$)|(^[abceghjklmnprstvxyABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Za-z]{1} *\d{1}[A-Za-z]{1}\d{1}$)" binding="postalcode" range-error="error.message.between5and10" missing-error="shipping.postalcode.missing" parse-error="error.message.parse.postalcode" />
+    <field formid="phone" label="label.input.phonenumber" description="example.phone" type="string" mandatory="true" binding="phone" min-length="10" max-length="20" missing-error="shipping.phone.missing" range-error="error.message.between10and20" parse-error="error.message.parse.phone" />
+    <field formid="comments" label="label.textarea.comments" type="string" binding="comments" />
+    <!-- payment -->
+    <include formid="creditCardFields" name="creditCard" />
+    <field formid="email" label="label.input.email" type="string" mandatory="true" binding="email" max-length="50" regexp="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$" missing-error="payment.email.missing" parse-error="error.message.parse.email" range-error="error.message.50orless" value-error="ValueErrorText" required="" />
+    <field formid="savecard" label="checkbox.save.card" binding="saveCard" type="boolean" mandatory="false" checked="true" />
+ <!-- action for actually saving dates -->
+    <action formid="save" valid-form="true"/>
+</form>
