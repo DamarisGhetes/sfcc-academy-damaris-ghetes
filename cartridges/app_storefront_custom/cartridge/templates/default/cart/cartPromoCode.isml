@@ -12,7 +12,7 @@
         <p class="optional-promo">${Resource.msg('action.enter.promo.code','cart',null)}</p>
     </div>
 </div>
-<div class="row" style="display:none" id="enter-promo">
+<div class="row" id="enter-promo">
     <div class="col-12">
         <form action="${pdict.actionUrls.submitCouponCodeUrl}" class="promo-code-form" method="GET" name="promo-code-form">
             <div class="form-group">

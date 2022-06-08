@@ -1,14 +1,21 @@
-@import "variables";
+@import "app_storefront_base/cartridge/client/default/scss/variables";
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/mixins/breakpoints";
-@import "utilities/deleteCardButton";
-@import "components/quickView";
+@import "app_storefront_base/cartridge/client/default/scss/utilities/deleteCardButton";
+@import "app_storefront_base/cartridge/client/default/scss/components/quickView";
 
 $spacer: 0.625em;
 $negative-spacer: -0.625rem;
 
 #enter-promo{
     display: none;
+}
+//to enable promo code with js
+a#click-promo-id{
+    color: black !important
+}
+a:hover{
+    text-decoration: none;
 }
 
 //to enable promo code with css
@@ -22,16 +29,6 @@ input[type=checkbox]:checked + label{
 #clickCode:checked + #enter-promo{
     display: block;
 }*/
-
-//to enable promo code with js
-
-a{
-    color:$primary;
-}
-a:hover{
-    text-decoration: none;
-}
-
 
 .single-approaching-discount {
     border: 1px solid rgba(0, 0, 0, 0.125);
