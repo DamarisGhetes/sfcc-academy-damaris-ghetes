@@ -1,0 +1,24 @@
+<isinclude template="/components/modules" sf-toolkit="off" />
+
+<isdecorate template="common/layout/page">
+    <div class="header">
+        <h1>Footer Your Benefits Section</h1>
+        <h3>Where does it come from?</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <iscontentasset aid=${pdict.assetID} />
+            </div>
+            <div class="col-md-3">
+                <iscontentasset aid=${pdict.assetID} />
+            </div>
+            <div class="col-md-3">
+                <iscontentasset aid=${pdict.assetID} />
+            </div>
+            <div class="col-md-3">
+                <iscontentasset aid=${pdict.assetID} />
+            </div>
+        </div>
+    </div>
+</isdecorate>
